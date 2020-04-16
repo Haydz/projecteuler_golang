@@ -44,7 +44,6 @@ func main() {
 	// 	if (i * 5) < 1000 {
 	// 		fiveMultiples = append(fiveMultiples, i*5)
 	// 	}
-
 	// }
 
 	//compare sum the difference of integers within the 2 slices
@@ -58,7 +57,7 @@ func main() {
 	totalSum := 0
 
 	for _, value := range fiveMultiples {
-		fmt.Println("value: ", value)
+		//fmt.Println("value: ", value)
 		totalSum = totalSum + value
 	}
 	fmt.Println(totalSum)
